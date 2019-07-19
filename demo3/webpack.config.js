@@ -6,7 +6,7 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const HtmlWebpackExternalsPlugin = require('html-webpack-externals-plugin');
 
 module.exports = {
-    entry: './src/module/demo.js',
+    entry: './src/index.js',
     output: {
         filename: 'demo-server.js',
         path: path.join(__dirname, 'dist'),
